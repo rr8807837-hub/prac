@@ -2,14 +2,14 @@ import streamlit as st
 st.markdown("""
    <style>
    header[data-testid="stHeader"]{
-       display=none;
+       visibility:hidden;
     }
    footer{display=none;}
    #MainMenu{
        visibility:hidden;
    }
    section[data-testid="stSidebar"]{
-       display:block !important;
+       visibility:block !important;
    } 
    <\style>         
 """,unsafe_allow_html=True)
