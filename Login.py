@@ -12,8 +12,8 @@ st.markdown("""
             header {visibility: hidden;} /* top header */
             footer {visibility: hidden;} 
             .stApp{
-                background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-                color: white;
+                background:white;
+                color: black;
             }
             .stButton > button{
                 margin-left:42px;
