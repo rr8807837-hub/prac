@@ -16,6 +16,9 @@ st.latex(r"a+b=c")
 if st.button("save"):
     chat=collection.insert_one({"message":st.session_state.chat})
     st.success("saved into mongoDB")
+    st.session_state.go = True
+
+if st.session_state.get("go"):
     st.switch_page("pages/p.py")
 st.markdown("""
             <style>
