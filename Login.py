@@ -9,7 +9,7 @@ if "gen" not in st.session_state:
 st.markdown("""
             <style>
             #MainMenu{visibility:hidden;}
-            header {visibility: hidden;}     /* top header */
+            header {visibility: hidden;} /* top header */
             footer {visibility: hidden;} 
             .stApp{
                 background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
@@ -28,7 +28,6 @@ collection = db["Users"]
 st.title("RESUME GENERATOR")
 st.caption("Build professional resumes in minutes")
 st.header("Login page")
-st.balloons()
 col1,col2,col3=st.columns(3)
 with col2:
     if st.toggle("Please Click here to Login"):
