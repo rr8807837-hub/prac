@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import pdfkit
+#import pdfkit
 st.set_page_config(page_title="Resume Generator", page_icon=":briefcase:", layout="wide",initial_sidebar_state="collapsed")
 # session state
 if "generated" not in st.session_state:
