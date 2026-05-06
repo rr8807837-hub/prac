@@ -15,7 +15,7 @@ st.session_state.chat = st.text_input("enter here" ,key="chatinput")
 st.latex(r"a+b=c") 
 if st.button("save"):
     chat=collection.insert_one({"message":st.session_state.chat})
-    st.success("saved into mongoDB"):
+    st.success("saved into mongoDB")
     st.switch_page("pages/p.py")
 st.markdown("""
             <style>
