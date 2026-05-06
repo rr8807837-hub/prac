@@ -22,7 +22,6 @@ st.markdown("""
             .stButton>button{
                 border-radius:10px;
                 background-color:red;
-                margin-left:440px;
             }
             </style>
             """,unsafe_allow_html=True)        
