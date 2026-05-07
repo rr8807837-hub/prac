@@ -2,3 +2,5 @@ streamlit
 pymongo
 datetime
 pandas
+xhtml2pdf
+base64
