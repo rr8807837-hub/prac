@@ -13,7 +13,7 @@ st.markdown("""
             footer {visibility: hidden;} 
             .stApp{
                 background:black;
-                color: black;
+                color: white;
             }
             .stButton > button{
                 margin-left:42px;
