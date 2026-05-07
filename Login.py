@@ -12,7 +12,7 @@ st.markdown("""
             header {visibility: hidden;} /* top header */
             footer {visibility: hidden;} 
             .stApp{
-                background:white;
+                background:grey;
                 color: black;
             }
             .stButton > button{
