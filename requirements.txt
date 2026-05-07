@@ -1,5 +1,5 @@
 streamlit
 pymongo
 pandas
-xhtml2pdf
-reportlab
+xhtml2pdf==0.2.11
+reportlab==4.0.9
