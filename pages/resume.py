@@ -9,7 +9,7 @@ st.caption("Please fill the details")
 st.markdown("""
             <style>
             .stApp{
-                background:black;
+                background:#2f8ee0;
                 color:white;
             }
             .stButton > button{
