@@ -3,7 +3,7 @@ import pymongo
 from pymongo import MongoClient
 from datetime import datetime
 import pandas as pd
-st.set_page_config(page_title="Login page",layout="centered",page_icon=":link:")
+st.set_page_config(page_title="Login page",layout="centered",page_icon=":link:",initial_sidebar_state="collapsed")
 if "gen" not in st.session_state:
     st.session_state.gen=""   
 st.markdown("""
@@ -12,7 +12,7 @@ st.markdown("""
             header {visibility: hidden;} /* top header */
             footer {visibility: hidden;} 
             .stApp{
-                background:grey;
+                background:black;
                 color: black;
             }
             .stButton > button{
