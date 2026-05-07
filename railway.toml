@@ -1,0 +1,5 @@
+[build]
+buildAptPackages = ["libcairo2-dev", "pkg-config"]
+
+[deploy]
+deployAptPackages = ["libcairo2"]
